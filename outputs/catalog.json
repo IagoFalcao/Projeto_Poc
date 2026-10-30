@@ -1,0 +1,1385 @@
+{
+    "folder": {
+        "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18",
+        "sol_files_count": 29
+    },
+    "brief": {
+        "contracts": [
+            {
+                "name": "Controller",
+                "file": "contracts/Controller.sol"
+            },
+            {
+                "name": "InterestRateModel",
+                "file": "contracts/InterestRateModel.sol"
+            },
+            {
+                "name": "LPTokenMaster",
+                "file": "contracts/LPTokenMaster.sol"
+            },
+            {
+                "name": "LendingPair",
+                "file": "contracts/LendingPair.sol"
+            },
+            {
+                "name": "RewardDistribution",
+                "file": "contracts/RewardDistribution.sol"
+            },
+            {
+                "name": "TransferHelper",
+                "file": "contracts/TransferHelper.sol"
+            },
+            {
+                "name": "UniswapV3Oracle",
+                "file": "contracts/UniswapV3Oracle.sol"
+            },
+            {
+                "name": "in",
+                "file": "contracts/external/Address.sol"
+            },
+            {
+                "name": "will",
+                "file": "contracts/external/Address.sol"
+            },
+            {
+                "name": "lived",
+                "file": "contracts/external/Address.sol"
+            },
+            {
+                "name": "must",
+                "file": "contracts/external/Address.sol"
+            },
+            {
+                "name": "functionality",
+                "file": "contracts/external/Clones.sol"
+            },
+            {
+                "name": "ERC20",
+                "file": "contracts/external/ERC20.sol"
+            },
+            {
+                "name": "Ownable",
+                "file": "contracts/external/Ownable.sol"
+            }
+        ],
+        "interfaces": [
+            {
+                "name": "IController",
+                "file": "contracts/interfaces/IController.sol"
+            },
+            {
+                "name": "IERC20",
+                "file": "contracts/interfaces/IERC20.sol"
+            },
+            {
+                "name": "IFeeConverter",
+                "file": "contracts/interfaces/IFeeConverter.sol"
+            },
+            {
+                "name": "IFeeRecipient",
+                "file": "contracts/interfaces/IFeeRecipient.sol"
+            },
+            {
+                "name": "IInterestRateModel",
+                "file": "contracts/interfaces/IInterestRateModel.sol"
+            },
+            {
+                "name": "ILPTokenMaster",
+                "file": "contracts/interfaces/ILPTokenMaster.sol"
+            },
+            {
+                "name": "ILendingPair",
+                "file": "contracts/interfaces/ILendingPair.sol"
+            },
+            {
+                "name": "ILinkOracle",
+                "file": "contracts/interfaces/ILinkOracle.sol"
+            },
+            {
+                "name": "IPairFactory",
+                "file": "contracts/interfaces/IPairFactory.sol"
+            },
+            {
+                "name": "IPriceOracle",
+                "file": "contracts/interfaces/IPriceOracle.sol"
+            },
+            {
+                "name": "IRewardDistribution",
+                "file": "contracts/interfaces/IRewardDistribution.sol"
+            },
+            {
+                "name": "IUniswapPair",
+                "file": "contracts/interfaces/IUniswapPair.sol"
+            },
+            {
+                "name": "IUniswapPriceConverter",
+                "file": "contracts/interfaces/IUniswapPriceConverter.sol"
+            },
+            {
+                "name": "IUniswapRouter",
+                "file": "contracts/interfaces/IUniswapRouter.sol"
+            },
+            {
+                "name": "IUniswapV3Factory",
+                "file": "contracts/interfaces/IUniswapV3Factory.sol"
+            },
+            {
+                "name": "IUniswapV3Pool",
+                "file": "contracts/interfaces/IUniswapV3Pool.sol"
+            },
+            {
+                "name": "IWETH",
+                "file": "contracts/interfaces/IWETH.sol"
+            }
+        ],
+        "libraries": [
+            {
+                "name": "Address",
+                "file": "contracts/external/Address.sol"
+            },
+            {
+                "name": "includes",
+                "file": "contracts/external/Clones.sol"
+            },
+            {
+                "name": "Clones",
+                "file": "contracts/external/Clones.sol"
+            },
+            {
+                "name": "Math",
+                "file": "contracts/external/Math.sol"
+            }
+        ],
+        "others": []
+    },
+    "files": [
+        {
+            "filename": "Controller.sol",
+            "cname": "Controller",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/Controller.sol",
+            "rel_path": "contracts/Controller.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "contract",
+                    "name": "Controller"
+                }
+            ],
+            "imports": [
+                {
+                    "caller_file": "contracts/Controller.sol",
+                    "import_path": "./interfaces/IInterestRateModel.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/Controller.sol",
+                    "import_path": "./interfaces/IRewardDistribution.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/Controller.sol",
+                    "import_path": "./interfaces/IPriceOracle.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/Controller.sol",
+                    "import_path": "./external/Address.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/Controller.sol",
+                    "import_path": "./external/Ownable.sol",
+                    "type": "relative"
+                }
+            ],
+            "sol_version": [
+                {
+                    "file": "contracts/Controller.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 5759
+        },
+        {
+            "filename": "InterestRateModel.sol",
+            "cname": "InterestRateModel",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/InterestRateModel.sol",
+            "rel_path": "contracts/InterestRateModel.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "contract",
+                    "name": "InterestRateModel"
+                }
+            ],
+            "imports": [
+                {
+                    "caller_file": "contracts/InterestRateModel.sol",
+                    "import_path": "./interfaces/ILendingPair.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/InterestRateModel.sol",
+                    "import_path": "./interfaces/IERC20.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/InterestRateModel.sol",
+                    "import_path": "./external/Math.sol",
+                    "type": "relative"
+                }
+            ],
+            "sol_version": [
+                {
+                    "file": "contracts/InterestRateModel.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 2202
+        },
+        {
+            "filename": "LPTokenMaster.sol",
+            "cname": "LPTokenMaster",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/LPTokenMaster.sol",
+            "rel_path": "contracts/LPTokenMaster.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "contract",
+                    "name": "LPTokenMaster"
+                }
+            ],
+            "imports": [
+                {
+                    "caller_file": "contracts/LPTokenMaster.sol",
+                    "import_path": "./interfaces/IERC20.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/LPTokenMaster.sol",
+                    "import_path": "./interfaces/ILendingPair.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/LPTokenMaster.sol",
+                    "import_path": "./external/Ownable.sol",
+                    "type": "relative"
+                }
+            ],
+            "sol_version": [
+                {
+                    "file": "contracts/LPTokenMaster.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 3693
+        },
+        {
+            "filename": "LendingPair.sol",
+            "cname": "LendingPair",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/LendingPair.sol",
+            "rel_path": "contracts/LendingPair.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "contract",
+                    "name": "LendingPair"
+                }
+            ],
+            "imports": [
+                {
+                    "caller_file": "contracts/LendingPair.sol",
+                    "import_path": "./interfaces/IERC20.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/LendingPair.sol",
+                    "import_path": "./interfaces/ILPTokenMaster.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/LendingPair.sol",
+                    "import_path": "./interfaces/ILendingPair.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/LendingPair.sol",
+                    "import_path": "./interfaces/IController.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/LendingPair.sol",
+                    "import_path": "./interfaces/IRewardDistribution.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/LendingPair.sol",
+                    "import_path": "./interfaces/IInterestRateModel.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/LendingPair.sol",
+                    "import_path": "./external/Math.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/LendingPair.sol",
+                    "import_path": "./external/Ownable.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/LendingPair.sol",
+                    "import_path": "./external/Address.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/LendingPair.sol",
+                    "import_path": "./external/Clones.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/LendingPair.sol",
+                    "import_path": "./external/ERC20.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/LendingPair.sol",
+                    "import_path": "./TransferHelper.sol",
+                    "type": "relative"
+                }
+            ],
+            "sol_version": [
+                {
+                    "file": "contracts/LendingPair.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 18844
+        },
+        {
+            "filename": "RewardDistribution.sol",
+            "cname": "RewardDistribution",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/RewardDistribution.sol",
+            "rel_path": "contracts/RewardDistribution.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "contract",
+                    "name": "RewardDistribution"
+                }
+            ],
+            "imports": [
+                {
+                    "caller_file": "contracts/RewardDistribution.sol",
+                    "import_path": "./interfaces/IERC20.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/RewardDistribution.sol",
+                    "import_path": "./interfaces/IPairFactory.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/RewardDistribution.sol",
+                    "import_path": "./interfaces/IController.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/RewardDistribution.sol",
+                    "import_path": "./interfaces/ILendingPair.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/RewardDistribution.sol",
+                    "import_path": "./external/Address.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/RewardDistribution.sol",
+                    "import_path": "./external/Ownable.sol",
+                    "type": "relative"
+                }
+            ],
+            "sol_version": [
+                {
+                    "file": "contracts/RewardDistribution.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 9664
+        },
+        {
+            "filename": "TransferHelper.sol",
+            "cname": "TransferHelper",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/TransferHelper.sol",
+            "rel_path": "contracts/TransferHelper.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "contract",
+                    "name": "TransferHelper"
+                }
+            ],
+            "imports": [
+                {
+                    "caller_file": "contracts/TransferHelper.sol",
+                    "import_path": "./interfaces/IERC20.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/TransferHelper.sol",
+                    "import_path": "./interfaces/IWETH.sol",
+                    "type": "relative"
+                }
+            ],
+            "sol_version": [
+                {
+                    "file": "contracts/TransferHelper.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 1224
+        },
+        {
+            "filename": "UniswapV3Oracle.sol",
+            "cname": "UniswapV3Oracle",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/UniswapV3Oracle.sol",
+            "rel_path": "contracts/UniswapV3Oracle.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "contract",
+                    "name": "UniswapV3Oracle"
+                }
+            ],
+            "imports": [
+                {
+                    "caller_file": "contracts/UniswapV3Oracle.sol",
+                    "import_path": "./interfaces/IERC20.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/UniswapV3Oracle.sol",
+                    "import_path": "./interfaces/IUniswapV3Pool.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/UniswapV3Oracle.sol",
+                    "import_path": "./interfaces/IUniswapV3Factory.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/UniswapV3Oracle.sol",
+                    "import_path": "./interfaces/ILinkOracle.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/UniswapV3Oracle.sol",
+                    "import_path": "./interfaces/IUniswapPriceConverter.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/UniswapV3Oracle.sol",
+                    "import_path": "./external/Ownable.sol",
+                    "type": "relative"
+                }
+            ],
+            "sol_version": [
+                {
+                    "file": "contracts/UniswapV3Oracle.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 3428
+        },
+        {
+            "filename": "Address.sol",
+            "cname": "Address",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/external/Address.sol",
+            "rel_path": "contracts/external/Address.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "library",
+                    "name": "Address"
+                },
+                {
+                    "type": "contract",
+                    "name": "in"
+                },
+                {
+                    "type": "contract",
+                    "name": "will"
+                },
+                {
+                    "type": "contract",
+                    "name": "lived"
+                },
+                {
+                    "type": "contract",
+                    "name": "must"
+                }
+            ],
+            "imports": [],
+            "sol_version": [
+                {
+                    "file": "contracts/external/Address.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 7998
+        },
+        {
+            "filename": "Clones.sol",
+            "cname": "Clones",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/external/Clones.sol",
+            "rel_path": "contracts/external/Clones.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "contract",
+                    "name": "functionality"
+                },
+                {
+                    "type": "library",
+                    "name": "includes"
+                },
+                {
+                    "type": "library",
+                    "name": "Clones"
+                }
+            ],
+            "imports": [],
+            "sol_version": [
+                {
+                    "file": "contracts/external/Clones.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 3604
+        },
+        {
+            "filename": "ERC20.sol",
+            "cname": "ERC20",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/external/ERC20.sol",
+            "rel_path": "contracts/external/ERC20.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "contract",
+                    "name": "ERC20"
+                }
+            ],
+            "imports": [
+                {
+                    "caller_file": "contracts/external/ERC20.sol",
+                    "import_path": "./Ownable.sol",
+                    "type": "relative"
+                }
+            ],
+            "sol_version": [
+                {
+                    "file": "contracts/external/ERC20.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 2878
+        },
+        {
+            "filename": "Math.sol",
+            "cname": "Math",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/external/Math.sol",
+            "rel_path": "contracts/external/Math.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "library",
+                    "name": "Math"
+                }
+            ],
+            "imports": [],
+            "sol_version": [
+                {
+                    "file": "contracts/external/Math.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 679
+        },
+        {
+            "filename": "Ownable.sol",
+            "cname": "Ownable",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/external/Ownable.sol",
+            "rel_path": "contracts/external/Ownable.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "contract",
+                    "name": "Ownable"
+                }
+            ],
+            "imports": [],
+            "sol_version": [
+                {
+                    "file": "contracts/external/Ownable.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 968
+        },
+        {
+            "filename": "IController.sol",
+            "cname": "IController",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/interfaces/IController.sol",
+            "rel_path": "contracts/interfaces/IController.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "interface",
+                    "name": "IController"
+                }
+            ],
+            "imports": [
+                {
+                    "caller_file": "contracts/interfaces/IController.sol",
+                    "import_path": "./IInterestRateModel.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/interfaces/IController.sol",
+                    "import_path": "./IRewardDistribution.sol",
+                    "type": "relative"
+                }
+            ],
+            "sol_version": [
+                {
+                    "file": "contracts/interfaces/IController.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 1331
+        },
+        {
+            "filename": "IERC20.sol",
+            "cname": "IERC20",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/interfaces/IERC20.sol",
+            "rel_path": "contracts/interfaces/IERC20.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "interface",
+                    "name": "IERC20"
+                }
+            ],
+            "imports": [],
+            "sol_version": [
+                {
+                    "file": "contracts/interfaces/IERC20.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 932
+        },
+        {
+            "filename": "IFeeConverter.sol",
+            "cname": "IFeeConverter",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/interfaces/IFeeConverter.sol",
+            "rel_path": "contracts/interfaces/IFeeConverter.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "interface",
+                    "name": "IFeeConverter"
+                }
+            ],
+            "imports": [
+                {
+                    "caller_file": "contracts/interfaces/IFeeConverter.sol",
+                    "import_path": "./ILendingPair.sol",
+                    "type": "relative"
+                }
+            ],
+            "sol_version": [
+                {
+                    "file": "contracts/interfaces/IFeeConverter.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 274
+        },
+        {
+            "filename": "IFeeRecipient.sol",
+            "cname": "IFeeRecipient",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/interfaces/IFeeRecipient.sol",
+            "rel_path": "contracts/interfaces/IFeeRecipient.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "interface",
+                    "name": "IFeeRecipient"
+                }
+            ],
+            "imports": [
+                {
+                    "caller_file": "contracts/interfaces/IFeeRecipient.sol",
+                    "import_path": "./IFeeConverter.sol",
+                    "type": "relative"
+                }
+            ],
+            "sol_version": [
+                {
+                    "file": "contracts/interfaces/IFeeRecipient.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 192
+        },
+        {
+            "filename": "IInterestRateModel.sol",
+            "cname": "IInterestRateModel",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/interfaces/IInterestRateModel.sol",
+            "rel_path": "contracts/interfaces/IInterestRateModel.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "interface",
+                    "name": "IInterestRateModel"
+                }
+            ],
+            "imports": [
+                {
+                    "caller_file": "contracts/interfaces/IInterestRateModel.sol",
+                    "import_path": "./ILendingPair.sol",
+                    "type": "relative"
+                }
+            ],
+            "sol_version": [
+                {
+                    "file": "contracts/interfaces/IInterestRateModel.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 414
+        },
+        {
+            "filename": "ILPTokenMaster.sol",
+            "cname": "ILPTokenMaster",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/interfaces/ILPTokenMaster.sol",
+            "rel_path": "contracts/interfaces/ILPTokenMaster.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "interface",
+                    "name": "ILPTokenMaster"
+                }
+            ],
+            "imports": [
+                {
+                    "caller_file": "contracts/interfaces/ILPTokenMaster.sol",
+                    "import_path": "./IERC20.sol",
+                    "type": "relative"
+                }
+            ],
+            "sol_version": [
+                {
+                    "file": "contracts/interfaces/ILPTokenMaster.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 441
+        },
+        {
+            "filename": "ILendingPair.sol",
+            "cname": "ILendingPair",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/interfaces/ILendingPair.sol",
+            "rel_path": "contracts/interfaces/ILendingPair.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "interface",
+                    "name": "ILendingPair"
+                }
+            ],
+            "imports": [
+                {
+                    "caller_file": "contracts/interfaces/ILendingPair.sol",
+                    "import_path": "./IERC20.sol",
+                    "type": "relative"
+                },
+                {
+                    "caller_file": "contracts/interfaces/ILendingPair.sol",
+                    "import_path": "./IController.sol",
+                    "type": "relative"
+                }
+            ],
+            "sol_version": [
+                {
+                    "file": "contracts/interfaces/ILendingPair.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 1410
+        },
+        {
+            "filename": "ILinkOracle.sol",
+            "cname": "ILinkOracle",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/interfaces/ILinkOracle.sol",
+            "rel_path": "contracts/interfaces/ILinkOracle.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "interface",
+                    "name": "ILinkOracle"
+                }
+            ],
+            "imports": [],
+            "sol_version": [
+                {
+                    "file": "contracts/interfaces/ILinkOracle.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 207
+        },
+        {
+            "filename": "IPairFactory.sol",
+            "cname": "IPairFactory",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/interfaces/IPairFactory.sol",
+            "rel_path": "contracts/interfaces/IPairFactory.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "interface",
+                    "name": "IPairFactory"
+                }
+            ],
+            "imports": [],
+            "sol_version": [
+                {
+                    "file": "contracts/interfaces/IPairFactory.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 189
+        },
+        {
+            "filename": "IPriceOracle.sol",
+            "cname": "IPriceOracle",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/interfaces/IPriceOracle.sol",
+            "rel_path": "contracts/interfaces/IPriceOracle.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "interface",
+                    "name": "IPriceOracle"
+                }
+            ],
+            "imports": [],
+            "sol_version": [
+                {
+                    "file": "contracts/interfaces/IPriceOracle.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 238
+        },
+        {
+            "filename": "IRewardDistribution.sol",
+            "cname": "IRewardDistribution",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/interfaces/IRewardDistribution.sol",
+            "rel_path": "contracts/interfaces/IRewardDistribution.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "interface",
+                    "name": "IRewardDistribution"
+                }
+            ],
+            "imports": [],
+            "sol_version": [
+                {
+                    "file": "contracts/interfaces/IRewardDistribution.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 178
+        },
+        {
+            "filename": "IUniswapPair.sol",
+            "cname": "IUniswapPair",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/interfaces/IUniswapPair.sol",
+            "rel_path": "contracts/interfaces/IUniswapPair.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "interface",
+                    "name": "IUniswapPair"
+                }
+            ],
+            "imports": [],
+            "sol_version": [
+                {
+                    "file": "contracts/interfaces/IUniswapPair.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 298
+        },
+        {
+            "filename": "IUniswapPriceConverter.sol",
+            "cname": "IUniswapPriceConverter",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/interfaces/IUniswapPriceConverter.sol",
+            "rel_path": "contracts/interfaces/IUniswapPriceConverter.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "interface",
+                    "name": "IUniswapPriceConverter"
+                }
+            ],
+            "imports": [],
+            "sol_version": [
+                {
+                    "file": "contracts/interfaces/IUniswapPriceConverter.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 342
+        },
+        {
+            "filename": "IUniswapRouter.sol",
+            "cname": "IUniswapRouter",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/interfaces/IUniswapRouter.sol",
+            "rel_path": "contracts/interfaces/IUniswapRouter.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "interface",
+                    "name": "IUniswapRouter"
+                }
+            ],
+            "imports": [],
+            "sol_version": [
+                {
+                    "file": "contracts/interfaces/IUniswapRouter.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 823
+        },
+        {
+            "filename": "IUniswapV3Factory.sol",
+            "cname": "IUniswapV3Factory",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/interfaces/IUniswapV3Factory.sol",
+            "rel_path": "contracts/interfaces/IUniswapV3Factory.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "interface",
+                    "name": "IUniswapV3Factory"
+                }
+            ],
+            "imports": [],
+            "sol_version": [
+                {
+                    "file": "contracts/interfaces/IUniswapV3Factory.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 218
+        },
+        {
+            "filename": "IUniswapV3Pool.sol",
+            "cname": "IUniswapV3Pool",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/interfaces/IUniswapV3Pool.sol",
+            "rel_path": "contracts/interfaces/IUniswapV3Pool.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "interface",
+                    "name": "IUniswapV3Pool"
+                }
+            ],
+            "imports": [],
+            "sol_version": [
+                {
+                    "file": "contracts/interfaces/IUniswapV3Pool.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 442
+        },
+        {
+            "filename": "IWETH.sol",
+            "cname": "IWETH",
+            "abs_path": "/home/balantedejuatuba/tcc/Projeto_Poc/data/18/contracts/interfaces/IWETH.sol",
+            "rel_path": "contracts/interfaces/IWETH.sol",
+            "extension": ".sol",
+            "declarations": [
+                {
+                    "type": "interface",
+                    "name": "IWETH"
+                }
+            ],
+            "imports": [],
+            "sol_version": [
+                {
+                    "file": "contracts/interfaces/IWETH.sol",
+                    "version": "^0.8.0"
+                }
+            ],
+            "size_bytes": 394
+        }
+    ],
+    "imports": [
+        {
+            "caller_file": "contracts/Controller.sol",
+            "import_path": "./interfaces/IInterestRateModel.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/Controller.sol",
+            "import_path": "./interfaces/IRewardDistribution.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/Controller.sol",
+            "import_path": "./interfaces/IPriceOracle.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/Controller.sol",
+            "import_path": "./external/Address.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/Controller.sol",
+            "import_path": "./external/Ownable.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/InterestRateModel.sol",
+            "import_path": "./interfaces/ILendingPair.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/InterestRateModel.sol",
+            "import_path": "./interfaces/IERC20.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/InterestRateModel.sol",
+            "import_path": "./external/Math.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/LPTokenMaster.sol",
+            "import_path": "./interfaces/IERC20.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/LPTokenMaster.sol",
+            "import_path": "./interfaces/ILendingPair.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/LPTokenMaster.sol",
+            "import_path": "./external/Ownable.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/LendingPair.sol",
+            "import_path": "./interfaces/IERC20.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/LendingPair.sol",
+            "import_path": "./interfaces/ILPTokenMaster.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/LendingPair.sol",
+            "import_path": "./interfaces/ILendingPair.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/LendingPair.sol",
+            "import_path": "./interfaces/IController.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/LendingPair.sol",
+            "import_path": "./interfaces/IRewardDistribution.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/LendingPair.sol",
+            "import_path": "./interfaces/IInterestRateModel.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/LendingPair.sol",
+            "import_path": "./external/Math.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/LendingPair.sol",
+            "import_path": "./external/Ownable.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/LendingPair.sol",
+            "import_path": "./external/Address.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/LendingPair.sol",
+            "import_path": "./external/Clones.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/LendingPair.sol",
+            "import_path": "./external/ERC20.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/LendingPair.sol",
+            "import_path": "./TransferHelper.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/RewardDistribution.sol",
+            "import_path": "./interfaces/IERC20.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/RewardDistribution.sol",
+            "import_path": "./interfaces/IPairFactory.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/RewardDistribution.sol",
+            "import_path": "./interfaces/IController.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/RewardDistribution.sol",
+            "import_path": "./interfaces/ILendingPair.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/RewardDistribution.sol",
+            "import_path": "./external/Address.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/RewardDistribution.sol",
+            "import_path": "./external/Ownable.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/TransferHelper.sol",
+            "import_path": "./interfaces/IERC20.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/TransferHelper.sol",
+            "import_path": "./interfaces/IWETH.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/UniswapV3Oracle.sol",
+            "import_path": "./interfaces/IERC20.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/UniswapV3Oracle.sol",
+            "import_path": "./interfaces/IUniswapV3Pool.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/UniswapV3Oracle.sol",
+            "import_path": "./interfaces/IUniswapV3Factory.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/UniswapV3Oracle.sol",
+            "import_path": "./interfaces/ILinkOracle.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/UniswapV3Oracle.sol",
+            "import_path": "./interfaces/IUniswapPriceConverter.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/UniswapV3Oracle.sol",
+            "import_path": "./external/Ownable.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/external/ERC20.sol",
+            "import_path": "./Ownable.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/interfaces/IController.sol",
+            "import_path": "./IInterestRateModel.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/interfaces/IController.sol",
+            "import_path": "./IRewardDistribution.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/interfaces/IFeeConverter.sol",
+            "import_path": "./ILendingPair.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/interfaces/IFeeRecipient.sol",
+            "import_path": "./IFeeConverter.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/interfaces/IInterestRateModel.sol",
+            "import_path": "./ILendingPair.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/interfaces/ILPTokenMaster.sol",
+            "import_path": "./IERC20.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/interfaces/ILendingPair.sol",
+            "import_path": "./IERC20.sol",
+            "type": "relative"
+        },
+        {
+            "caller_file": "contracts/interfaces/ILendingPair.sol",
+            "import_path": "./IController.sol",
+            "type": "relative"
+        }
+    ],
+    "pragmas_solidity": [
+        {
+            "file": "contracts/Controller.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/InterestRateModel.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/LPTokenMaster.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/LendingPair.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/RewardDistribution.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/TransferHelper.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/UniswapV3Oracle.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/external/Address.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/external/Clones.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/external/ERC20.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/external/Math.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/external/Ownable.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/interfaces/IController.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/interfaces/IERC20.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/interfaces/IFeeConverter.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/interfaces/IFeeRecipient.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/interfaces/IInterestRateModel.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/interfaces/ILPTokenMaster.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/interfaces/ILendingPair.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/interfaces/ILinkOracle.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/interfaces/IPairFactory.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/interfaces/IPriceOracle.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/interfaces/IRewardDistribution.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/interfaces/IUniswapPair.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/interfaces/IUniswapPriceConverter.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/interfaces/IUniswapRouter.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/interfaces/IUniswapV3Factory.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/interfaces/IUniswapV3Pool.sol",
+            "version": "^0.8.0"
+        },
+        {
+            "file": "contracts/interfaces/IWETH.sol",
+            "version": "^0.8.0"
+        }
+    ],
+    "errors": []
+}

@@ -1,0 +1,5 @@
+{
+  "source": "contracts/interfaces/IInterestRateModel.sol",
+  "contract": "IInterestRateModel",
+  "bytecode": ""
+}

@@ -1,0 +1,4 @@
+{
+  "error": "Diretório não encontrado: /home/balantedaboavista/Documents/projects/ic/Projeto_Poc/src/data/fuzzing/inputs/abi",
+  "exception": "FileNotFoundError"
+}

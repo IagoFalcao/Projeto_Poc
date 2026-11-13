@@ -1,0 +1,6 @@
+[
+  "/home/balantedaboavista/.ityfuzz/bin/ityfuzz",
+  "evm",
+  "-t",
+  "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/*"
+]

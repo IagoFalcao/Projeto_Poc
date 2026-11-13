@@ -1,0 +1,108 @@
+{
+  "abi_without_bytecode": [],
+  "bytecode_without_abi": [],
+  "invalid_pairs": [
+    {
+      "name": "contracts__interfaces__IController.sol__IController",
+      "abi": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__interfaces__IController.sol__IController_abi.abi",
+      "bytecode": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__interfaces__IController.sol__IController_bytecode.bin",
+      "error": "Bytecode vazio."
+    },
+    {
+      "name": "contracts__interfaces__IERC20.sol__IERC20",
+      "abi": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__interfaces__IERC20.sol__IERC20_abi.abi",
+      "bytecode": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__interfaces__IERC20.sol__IERC20_bytecode.bin",
+      "error": "Bytecode vazio."
+    },
+    {
+      "name": "contracts__interfaces__IFeeConverter.sol__IFeeConverter",
+      "abi": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__interfaces__IFeeConverter.sol__IFeeConverter_abi.abi",
+      "bytecode": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__interfaces__IFeeConverter.sol__IFeeConverter_bytecode.bin",
+      "error": "Bytecode vazio."
+    },
+    {
+      "name": "contracts__interfaces__IFeeRecipient.sol__IFeeRecipient",
+      "abi": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__interfaces__IFeeRecipient.sol__IFeeRecipient_abi.abi",
+      "bytecode": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__interfaces__IFeeRecipient.sol__IFeeRecipient_bytecode.bin",
+      "error": "Bytecode vazio."
+    },
+    {
+      "name": "contracts__interfaces__IInterestRateModel.sol__IInterestRateModel",
+      "abi": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__interfaces__IInterestRateModel.sol__IInterestRateModel_abi.abi",
+      "bytecode": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__interfaces__IInterestRateModel.sol__IInterestRateModel_bytecode.bin",
+      "error": "Bytecode vazio."
+    },
+    {
+      "name": "contracts__interfaces__ILPTokenMaster.sol__ILPTokenMaster",
+      "abi": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__interfaces__ILPTokenMaster.sol__ILPTokenMaster_abi.abi",
+      "bytecode": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__interfaces__ILPTokenMaster.sol__ILPTokenMaster_bytecode.bin",
+      "error": "Bytecode vazio."
+    },
+    {
+      "name": "contracts__interfaces__ILendingPair.sol__ILendingPair",
+      "abi": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__interfaces__ILendingPair.sol__ILendingPair_abi.abi",
+      "bytecode": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__interfaces__ILendingPair.sol__ILendingPair_bytecode.bin",
+      "error": "Bytecode vazio."
+    },
+    {
+      "name": "contracts__interfaces__ILinkOracle.sol__ILinkOracle",
+      "abi": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__interfaces__ILinkOracle.sol__ILinkOracle_abi.abi",
+      "bytecode": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__interfaces__ILinkOracle.sol__ILinkOracle_bytecode.bin",
+      "error": "Bytecode vazio."
+    },
+    {
+      "name": "contracts__interfaces__IPairFactory.sol__IPairFactory",
+      "abi": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__interfaces__IPairFactory.sol__IPairFactory_abi.abi",
+      "bytecode": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__interfaces__IPairFactory.sol__IPairFactory_bytecode.bin",
+      "error": "Bytecode vazio."
+    },
+    {
+      "name": "contracts__interfaces__IPriceOracle.sol__IPriceOracle",
+      "abi": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__interfaces__IPriceOracle.sol__IPriceOracle_abi.abi",
+      "bytecode": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__interfaces__IPriceOracle.sol__IPriceOracle_bytecode.bin",
+      "error": "Bytecode vazio."
+    },
+    {
+      "name": "contracts__interfaces__IRewardDistribution.sol__IRewardDistribution",
+      "abi": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__interfaces__IRewardDistribution.sol__IRewardDistribution_abi.abi",
+      "bytecode": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__interfaces__IRewardDistribution.sol__IRewardDistribution_bytecode.bin",
+      "error": "Bytecode vazio."
+    },
+    {
+      "name": "contracts__interfaces__IUniswapPair.sol__IUniswapPair",
+      "abi": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__interfaces__IUniswapPair.sol__IUniswapPair_abi.abi",
+      "bytecode": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__interfaces__IUniswapPair.sol__IUniswapPair_bytecode.bin",
+      "error": "Bytecode vazio."
+    },
+    {
+      "name": "contracts__interfaces__IUniswapPriceConverter.sol__IUniswapPriceConverter",
+      "abi": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__interfaces__IUniswapPriceConverter.sol__IUniswapPriceConverter_abi.abi",
+      "bytecode": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__interfaces__IUniswapPriceConverter.sol__IUniswapPriceConverter_bytecode.bin",
+      "error": "Bytecode vazio."
+    },
+    {
+      "name": "contracts__interfaces__IUniswapRouter.sol__IUniswapRouter",
+      "abi": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__interfaces__IUniswapRouter.sol__IUniswapRouter_abi.abi",
+      "bytecode": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__interfaces__IUniswapRouter.sol__IUniswapRouter_bytecode.bin",
+      "error": "Bytecode vazio."
+    },
+    {
+      "name": "contracts__interfaces__IUniswapV3Factory.sol__IUniswapV3Factory",
+      "abi": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__interfaces__IUniswapV3Factory.sol__IUniswapV3Factory_abi.abi",
+      "bytecode": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__interfaces__IUniswapV3Factory.sol__IUniswapV3Factory_bytecode.bin",
+      "error": "Bytecode vazio."
+    },
+    {
+      "name": "contracts__interfaces__IUniswapV3Pool.sol__IUniswapV3Pool",
+      "abi": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__interfaces__IUniswapV3Pool.sol__IUniswapV3Pool_abi.abi",
+      "bytecode": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__interfaces__IUniswapV3Pool.sol__IUniswapV3Pool_bytecode.bin",
+      "error": "Bytecode vazio."
+    },
+    {
+      "name": "contracts__interfaces__IWETH.sol__IWETH",
+      "abi": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__interfaces__IWETH.sol__IWETH_abi.abi",
+      "bytecode": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__interfaces__IWETH.sol__IWETH_bytecode.bin",
+      "error": "Bytecode vazio."
+    }
+  ]
+}

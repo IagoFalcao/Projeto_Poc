@@ -1,0 +1,7 @@
+[
+  {
+    "type": "timeout",
+    "message": "A execução excedeu o limite de 1800 segundos.",
+    "timeout_seconds": 1800
+  }
+]

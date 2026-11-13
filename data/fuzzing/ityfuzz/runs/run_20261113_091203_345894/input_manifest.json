@@ -1,0 +1,86 @@
+[
+  {
+    "name": "contracts__Controller.sol__Controller",
+    "abi_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__Controller.sol__Controller_abi.abi",
+    "bytecode_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__Controller.sol__Controller_bytecode.bin",
+    "abi_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__Controller.sol__Controller.abi",
+    "bytecode_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__Controller.sol__Controller.bin"
+  },
+  {
+    "name": "contracts__InterestRateModel.sol__InterestRateModel",
+    "abi_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__InterestRateModel.sol__InterestRateModel_abi.abi",
+    "bytecode_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__InterestRateModel.sol__InterestRateModel_bytecode.bin",
+    "abi_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__InterestRateModel.sol__InterestRateModel.abi",
+    "bytecode_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__InterestRateModel.sol__InterestRateModel.bin"
+  },
+  {
+    "name": "contracts__LPTokenMaster.sol__LPTokenMaster",
+    "abi_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__LPTokenMaster.sol__LPTokenMaster_abi.abi",
+    "bytecode_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__LPTokenMaster.sol__LPTokenMaster_bytecode.bin",
+    "abi_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__LPTokenMaster.sol__LPTokenMaster.abi",
+    "bytecode_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__LPTokenMaster.sol__LPTokenMaster.bin"
+  },
+  {
+    "name": "contracts__LendingPair.sol__LendingPair",
+    "abi_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__LendingPair.sol__LendingPair_abi.abi",
+    "bytecode_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__LendingPair.sol__LendingPair_bytecode.bin",
+    "abi_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__LendingPair.sol__LendingPair.abi",
+    "bytecode_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__LendingPair.sol__LendingPair.bin"
+  },
+  {
+    "name": "contracts__RewardDistribution.sol__RewardDistribution",
+    "abi_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__RewardDistribution.sol__RewardDistribution_abi.abi",
+    "bytecode_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__RewardDistribution.sol__RewardDistribution_bytecode.bin",
+    "abi_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__RewardDistribution.sol__RewardDistribution.abi",
+    "bytecode_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__RewardDistribution.sol__RewardDistribution.bin"
+  },
+  {
+    "name": "contracts__TransferHelper.sol__TransferHelper",
+    "abi_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__TransferHelper.sol__TransferHelper_abi.abi",
+    "bytecode_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__TransferHelper.sol__TransferHelper_bytecode.bin",
+    "abi_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__TransferHelper.sol__TransferHelper.abi",
+    "bytecode_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__TransferHelper.sol__TransferHelper.bin"
+  },
+  {
+    "name": "contracts__UniswapV3Oracle.sol__UniswapV3Oracle",
+    "abi_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__UniswapV3Oracle.sol__UniswapV3Oracle_abi.abi",
+    "bytecode_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__UniswapV3Oracle.sol__UniswapV3Oracle_bytecode.bin",
+    "abi_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__UniswapV3Oracle.sol__UniswapV3Oracle.abi",
+    "bytecode_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__UniswapV3Oracle.sol__UniswapV3Oracle.bin"
+  },
+  {
+    "name": "contracts__external__Address.sol__Address",
+    "abi_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__external__Address.sol__Address_abi.abi",
+    "bytecode_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__external__Address.sol__Address_bytecode.bin",
+    "abi_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__external__Address.sol__Address.abi",
+    "bytecode_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__external__Address.sol__Address.bin"
+  },
+  {
+    "name": "contracts__external__Clones.sol__Clones",
+    "abi_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__external__Clones.sol__Clones_abi.abi",
+    "bytecode_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__external__Clones.sol__Clones_bytecode.bin",
+    "abi_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__external__Clones.sol__Clones.abi",
+    "bytecode_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__external__Clones.sol__Clones.bin"
+  },
+  {
+    "name": "contracts__external__ERC20.sol__ERC20",
+    "abi_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__external__ERC20.sol__ERC20_abi.abi",
+    "bytecode_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__external__ERC20.sol__ERC20_bytecode.bin",
+    "abi_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__external__ERC20.sol__ERC20.abi",
+    "bytecode_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__external__ERC20.sol__ERC20.bin"
+  },
+  {
+    "name": "contracts__external__Math.sol__Math",
+    "abi_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__external__Math.sol__Math_abi.abi",
+    "bytecode_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__external__Math.sol__Math_bytecode.bin",
+    "abi_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__external__Math.sol__Math.abi",
+    "bytecode_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__external__Math.sol__Math.bin"
+  },
+  {
+    "name": "contracts__external__Ownable.sol__Ownable",
+    "abi_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/abi/contracts__external__Ownable.sol__Ownable_abi.abi",
+    "bytecode_source": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/inputs/bytecode/contracts__external__Ownable.sol__Ownable_bytecode.bin",
+    "abi_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__external__Ownable.sol__Ownable.abi",
+    "bytecode_target": "/home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__external__Ownable.sol__Ownable.bin"
+  }
+]

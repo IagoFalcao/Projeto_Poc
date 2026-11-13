@@ -1,0 +1,159 @@
+{
+  "absolutePath": "contracts/interfaces/IPairFactory.sol",
+  "exportedSymbols": {
+    "IPairFactory": [
+      6148
+    ]
+  },
+  "id": 6149,
+  "license": "UNLICENSED",
+  "nodeType": "SourceUnit",
+  "nodes": [
+    {
+      "id": 6138,
+      "literals": [
+        "solidity",
+        "^",
+        "0.8",
+        ".0"
+      ],
+      "nodeType": "PragmaDirective",
+      "src": "40:23:20"
+    },
+    {
+      "abstract": false,
+      "baseContracts": [],
+      "canonicalName": "IPairFactory",
+      "contractDependencies": [],
+      "contractKind": "interface",
+      "fullyImplemented": false,
+      "id": 6148,
+      "linearizedBaseContracts": [
+        6148
+      ],
+      "name": "IPairFactory",
+      "nameLocation": "75:12:20",
+      "nodeType": "ContractDefinition",
+      "nodes": [
+        {
+          "functionSelector": "1d5aa6d8",
+          "id": 6147,
+          "implemented": false,
+          "kind": "function",
+          "modifiers": [],
+          "name": "pairByTokens",
+          "nameLocation": "101:12:20",
+          "nodeType": "FunctionDefinition",
+          "parameters": {
+            "id": 6143,
+            "nodeType": "ParameterList",
+            "parameters": [
+              {
+                "constant": false,
+                "id": 6140,
+                "mutability": "mutable",
+                "name": "_tokenA",
+                "nameLocation": "122:7:20",
+                "nodeType": "VariableDeclaration",
+                "scope": 6147,
+                "src": "114:15:20",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 6139,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "114:7:20",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 6142,
+                "mutability": "mutable",
+                "name": "_tokenB",
+                "nameLocation": "139:7:20",
+                "nodeType": "VariableDeclaration",
+                "scope": 6147,
+                "src": "131:15:20",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 6141,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "131:7:20",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "src": "113:34:20"
+          },
+          "returnParameters": {
+            "id": 6146,
+            "nodeType": "ParameterList",
+            "parameters": [
+              {
+                "constant": false,
+                "id": 6145,
+                "mutability": "mutable",
+                "name": "",
+                "nameLocation": "-1:-1:-1",
+                "nodeType": "VariableDeclaration",
+                "scope": 6147,
+                "src": "170:7:20",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 6144,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "170:7:20",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "src": "169:9:20"
+          },
+          "scope": 6148,
+          "src": "92:87:20",
+          "stateMutability": "view",
+          "virtual": false,
+          "visibility": "external"
+        }
+      ],
+      "scope": 6149,
+      "src": "65:116:20",
+      "usedErrors": [],
+      "usedEvents": []
+    }
+  ],
+  "src": "40:142:20"
+}

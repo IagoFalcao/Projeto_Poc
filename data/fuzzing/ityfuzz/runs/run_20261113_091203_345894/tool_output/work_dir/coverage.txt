@@ -1,0 +1,24 @@
+Contract: /home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__InterestRateModel.sol__InterestRateModel(0x0374004a00b3990a17ca0e76bc5ca8ca84855756)
+Instruction Coverage: 126/985 (12.79%) 
+Branch Coverage: 11/64 (17.19%) 
+--------------------------------
+Contract: /home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__LendingPair.sol__LendingPair(0x08fdb5ae26c68aebaa27c18b30c94727bc5c34fc)
+Instruction Coverage: 1434/8272 (17.34%) 
+Branch Coverage: 117/410 (28.54%) 
+--------------------------------
+Contract: /home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__external__Ownable.sol__Ownable(0x16e30038eee41fbf25960e4a7a8907c917514b4d)
+Instruction Coverage: 160/352 (45.45%) 
+Branch Coverage: 11/22 (50.00%) 
+--------------------------------
+Contract: /home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__LPTokenMaster.sol__LPTokenMaster(0xf0c5003178c1710f47f42beb4cf1323edede4912)
+Instruction Coverage: 1879/2355 (79.79%) 
+Branch Coverage: 83/122 (68.03%) 
+--------------------------------
+Contract: /home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__UniswapV3Oracle.sol__UniswapV3Oracle(0x6d26b5cddaa81c76e51d68450a91ee32117478eb)
+Instruction Coverage: 481/2239 (21.48%) 
+Branch Coverage: 42/138 (30.43%) 
+--------------------------------
+Contract: /home/balantedaboavista/Documents/projects/ic/Projeto_Poc/data/fuzzing/ityfuzz/runs/run_20261113_091203_345894/targets/contracts__RewardDistribution.sol__RewardDistribution(0xbf20b5892012c2a70a2212b06915494f7f7174e1)
+Instruction Coverage: 804/4567 (17.60%) 
+Branch Coverage: 57/192 (29.69%) 
+--------------------------------

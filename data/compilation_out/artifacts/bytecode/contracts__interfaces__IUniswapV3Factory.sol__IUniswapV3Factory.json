@@ -1,0 +1,5 @@
+{
+  "source": "contracts/interfaces/IUniswapV3Factory.sol",
+  "contract": "IUniswapV3Factory",
+  "bytecode": ""
+}

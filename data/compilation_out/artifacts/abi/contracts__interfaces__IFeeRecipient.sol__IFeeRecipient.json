@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "contract IFeeConverter",
+        "name": "_value",
+        "type": "address"
+      }
+    ],
+    "name": "setFeeConverter",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

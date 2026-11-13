@@ -6,7 +6,7 @@ import compiler
 
 def compile_contracts(
     contracts_path: str = "../data/18/",
-    output_dir: str = "../outputs",
+    output_dir: str = "../data/outputs",
     solc_version: str = "0.8.24",
     optimize: bool = True,
     optimizer_runs: int = 200,
